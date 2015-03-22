@@ -1,0 +1,75 @@
+{
+  //
+  // UI
+  //
+  "theme": "Spacegray Eighties.sublime-theme",
+  "color_scheme": "Packages/Theme - Spacegray/base16-eighties.dark.tmTheme",
+  // Add ruler
+  "rulers": [80],
+  // If enabled, will highlight any line with a caret
+  "highlight_line": true,
+  // Set to true to draw a border around the visible rectangle on the minimap.
+  // The color of the border will be determined by the "minimapBorder" key in
+  // the color scheme
+  "draw_minimap_border": false,
+
+  // Always visualise the viewport on the minimap, as oppossed to only
+  // showing it on mouse over
+  "always_show_minimap_viewport": false,
+  // Valid values are "smooth", "phase", "blink" and "solid".
+  "caret_style": "phase",
+  // Controls side bar animation when expanding or collapsing folders
+  "tree_animation_enabled": false,
+  // Controls animation throughout the application
+  "animation_enabled": false,
+  "highlight_modified_tabs": true,
+
+
+  //
+  // Type
+  //
+  "default_encoding": "UTF-8",
+  "font_face": "Source Code Pro",
+  "font_size": 12,
+  // Additional spacing at the top of each line, in pixels
+  "line_padding_top": 1,
+  // Additional spacing at the bottom of each line, in pixels
+  "line_padding_bottom": 1,
+  // The number of spaces a tab is considered equal to
+  "tab_size": 2,
+  "show_line_endings": true,
+
+
+  //
+  // Behaviour
+  //
+  "remember_open_files": true,
+  // Set to true to insert spaces when tab is pressed
+  "translate_tabs_to_spaces": true,
+  // Trims white space added by auto_indent when moving the caret off the line.
+  "trim_automatic_white_space": true,
+  // Set to true to removing trailing white space on save
+  "trim_trailing_white_space_on_save": true,
+  // Always prompt before reloading a file, even if the file hasn't been
+  // modified. The default behavior is to automatically reload a file if it
+  // hasn't been edited. If a file has unsaved changes, a prompt will always
+  // be shown.
+  "always_prompt_for_file_reload": false,
+  // OS X only: This controls if an empty window is created at startup or not.
+  "create_window_at_startup": false,
+
+  // folder_exclude_patterns and file_exclude_patterns control which files
+  // are listed in folders on the side bar. These can also be set on a per-
+  // project basis.
+  "folder_exclude_patterns": [
+    ".git",
+    "node_modules"
+  ],
+  "file_exclude_patterns": [
+    "*.scssc"
+  ],
+  "ignored_packages":
+  [
+    "Vintage"
+  ],
+}
