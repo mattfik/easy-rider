@@ -24,7 +24,6 @@
   "animation_enabled": false,
   "highlight_modified_tabs": true,
 
-
   //
   // Type
   //
@@ -38,7 +37,6 @@
   // The number of spaces a tab is considered equal to
   "tab_size": 2,
   "show_line_endings": true,
-
 
   //
   // Behaviour

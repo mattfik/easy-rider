@@ -9,6 +9,5 @@ fancy_echo() {
 
 fancy_echo "Cloning dotfiles..."
 git clone git@github.com:mattfik/dotfiles.git ~/.dotfiles
-
 cd ~/.dotfiles
 bash bootstrap.sh
