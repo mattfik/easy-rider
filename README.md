@@ -14,7 +14,7 @@ The main `setup.sh` script runs the other setup scripts.
   * `rbenv rehash`
 3. SSH
   * Prompts you for how many SSH keys you'd like to setup
-  * Umm.. helps you set up the keys. Obvs.
+  * Commence wizardry
 4. Dotfiles
   * Automates the process of setting up [my dotfiles](https://github.com/mattfik/dotfiles).
 5. Fonts

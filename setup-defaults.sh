@@ -369,6 +369,7 @@ cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ 
 ###############################################################################
 
 # Only use UTF-8 in Terminal.app
+fancy_echo "Only use UTF-8 in Terminal"
 defaults write com.apple.terminal StringEncodings -array 4
 
 # Install the Tomorrow Night theme for iTerm
@@ -376,6 +377,7 @@ fancy_echo "Installing iTerm theme"
 open "init/Tomorrow Night.itermcolors"
 
 # Don’t display the annoying prompt when quitting iTerm
+fancy_echo "Don’t display the annoying prompt when quitting iTerm"
 defaults write com.googlecode.iterm2 PromptOnQuit -bool false
 
 ###############################################################################

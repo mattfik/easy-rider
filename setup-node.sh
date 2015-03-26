@@ -1,0 +1,1 @@
+curl -L https://npmjs.com/install.sh | sh

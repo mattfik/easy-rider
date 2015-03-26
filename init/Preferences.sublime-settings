@@ -60,8 +60,7 @@
   // are listed in folders on the side bar. These can also be set on a per-
   // project basis.
   "folder_exclude_patterns": [
-    ".git",
-    "node_modules"
+    ".git"
   ],
   "file_exclude_patterns": [
     "*.scssc"

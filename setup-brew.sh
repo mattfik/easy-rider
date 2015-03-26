@@ -35,5 +35,7 @@ brew update
 
 brew_install 'git'
 brew_install 'rbenv'
+brew_install 'node'
+brew_install 'ack'
 
 fancy_echo 'Homebrew installation complete!'
